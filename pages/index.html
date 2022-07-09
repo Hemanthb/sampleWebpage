@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BridgeLabz</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/blabz.css">
+        <link rel="text/javascript" href="../js/blabz.js">
+    </head>
+    <body>
+        <div class = "headercontainer">
+            <div class=header>
+                <img id="header-img" src="../assets/blabz_icon.jpg" alt="">
+            </div>
+            <div class="topnav">
+            <ul id="navbar1">
+                    <li class="aboutus">
+                    <a href="#about"><span>About Us</span></a></li>
+                    <li class="courses">
+                    <a href="#course"><span>Courses</span></a></li>
+                    <li class="contact">
+                    <a href="#contact"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <section class="about-us" id="about">
+            <div class="about-container">
+                <div id="brand" class="column">
+                    <img id="brand-img" src="../assets/ashwin.jpg" alt="">
+                </div>
+                <div id="writeup" class="column">
+                    <p>Bridgelabz is an AWS recognised incubator and is soley focused on solving tech
+                        employability. Over the last 5 years, it has worked with 500+ top tech 
+                        companies and 2500+ engineers have been hired from Bridgelabz.
+                        It has labs in Mumbai and Bangalore. It has partnered with over 500 companies, 
+                        including Yatra, Capgemini, Meru Cabs, LafargeHolcim, JDA, UrbanLadder, Fullerton India, and RBL bank.
+                        Bridgelabz recently won Business World Techtor Award 2020 and secured 2nd position at Global Edtech Startup Awards 2019, India. 
+                        Also, was selected by the Maharashtra state government as Top 100 Startups 2019.
+                        More than 350+ learners placed in last 6 months despite covid downturn while most organizations were not hiring or were laying off!</p>
+                </div>
+            </div>
+            </section>
+            <section class="course" id="course">
+            Courses
+            </section>
+            <section class="contact_us" id="contact">
+            <div class="form-container">
+                <div class="form-header"><h2>Enter Your Details To Contact</h2></div>
+                <form id="contact-form">
+                    <div>
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" placeholder="Enter Your Firstname" required>
+                    </div>
+                    <div>
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" placeholder="Enter Your Lastname">
+                    </div>
+                    <div>
+                        <label for="phone">PHONE NO</label>
+                        <input type="number" id="phno" placeholder="Enter Your Phone Number">
+                    </div>
+                    <div>
+                        <label for="email">EMAIL-ID</label>
+                        <input type="email" id="email" placeholder="Enter Your Email-id" required>
+                    </div>
+                    <div>
+                        <button type="submit" id="submit" onsubmit="alertuser();">SUBMIT</button>
+                    </div>
+                </form> 
+            </div>
+            </section>
+        </div>
+        <footer class="footer-container">
+            <p>BridgeLabz@inc</p>
+        </footer>
+    </body>
+</html>
